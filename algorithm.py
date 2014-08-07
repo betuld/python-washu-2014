@@ -33,7 +33,8 @@ print prime_numbers(10)
 print prime_numbers(121)
 
 
-# n: The rod that the first three discs are on
+# The three discs are on rod n
+# The method to move the three discs to rod n+1
 # Number 1 goes to rod base 3 (n+1)
 # Number 2 goes to rod (n+2)
 # Number 1 goes to rod (n+2)
