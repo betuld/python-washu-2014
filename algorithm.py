@@ -28,7 +28,26 @@ def prime_numbers(up):
 		mainlist = [item for item in mainlist if item not in multiples]
 	return mainlist	
 
+print prime_numbers(2)
+print prime_numbers(10)
 print prime_numbers(121)
+
+
+# n: The rod that the first three discs are on
+# Number 1 goes to rod base 3 (n+1)
+# Number 2 goes to rod (n+2)
+# Number 1 goes to rod (n+2)
+# Number 3 goes to rod (n+1)
+# Number 1 goes to rod n
+# Number 2 goes to rod (n+1)
+# Number 1 goes to rod (n+1)
+
+# Let * be the method to remove three discs
+# Use * to move the three discs to an open spot
+# Move 3+n th disc to the other spot
+# Use * to move the three discs to the spot with the disc with smaller number
+
+
 
 
 
