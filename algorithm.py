@@ -35,7 +35,7 @@ print prime_numbers(121)
 
 # The three discs are on rod n
 # The method to move the three discs to rod n+1
-# Number 1 goes to rod base 3 (n+1)
+# Number 1 goes to rod (n+1)
 # Number 2 goes to rod (n+2)
 # Number 1 goes to rod (n+2)
 # Number 3 goes to rod (n+1)
@@ -47,6 +47,8 @@ print prime_numbers(121)
 # Use * to move the three discs to an open spot
 # Move 3+n th disc to the other spot
 # Use * to move the three discs to the spot with the disc with smaller number
+
+#Don't initialize arguments to mutable objects
 
 
 
